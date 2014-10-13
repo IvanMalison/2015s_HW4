@@ -25,6 +25,7 @@ int main() {
 	int values[14] = {4,2,11,15,9,1,-6,5,3,15,2,5,13,14};
 	BinarySearchTree bst;
 	for (int i=0;i<14;i++) {
+		cout << "Inserting " << values[i] << " into the tree.\n";
 		bst.insert(values[i]);
 	}
 	cout << "Original tree " <<
