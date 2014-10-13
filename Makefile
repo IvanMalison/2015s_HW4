@@ -5,7 +5,8 @@ CXX = clang++
 FLAGS =  -g -Wall 
 
 bst: BinarySearchTree.cpp BinarySearchTree.h main.cpp pretty_print.cpp
-	${CXX} ${FLAGS} -o hw4 BinarySearchTree.cpp main.cpp
+	${CXX} ${FLAGS} -o hw4 BinarySearchTree.cpp \
+		main.cpp pretty_print.cpp
 clean:
 	rm -f hw4
 
