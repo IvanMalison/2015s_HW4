@@ -68,7 +68,7 @@ bool BinarySearchTree::contains(int value) {
 	// TODO: Students write code here
 }
 
-bool contains(Node *node, int value) {
+bool BinarySearchTree::contains(Node *node, int value) {
 	// TODO: Students write code here
 }
 
